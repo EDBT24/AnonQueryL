@@ -1,5 +1,5 @@
 SELECT C.*
-FROM CFs AS RC,
+FROM CFs AS C,
      Prediction_CFs AS PC,
      Instances AS I
 WHERE C.CfId = PC.CfId 
